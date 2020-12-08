@@ -1,0 +1,136 @@
+html{
+       height: 100%;
+}
+
+body{
+    background-color: #6F4E37;
+    background-image:url(images/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg);
+    background-size: cover;
+    
+   
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    height: 118px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+nav{
+    background-color:rgba(0, 0, 0, 0.733);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+main{
+    height: 400px;
+    text-align: center;
+    padding-top:10px ;
+    padding-left: 240px;
+    padding-right: 240px;
+
+}
+
+
+h1{
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.733);
+    font-family: sans-serif;
+}
+
+header h3{
+    font-size: 20px;
+    color: black;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.733);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+}
+
+a{
+    color: white;
+    font-size: 23px;
+    font-family: cursive  
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    
+}
+
+nav a:hover{
+    color: lightgreen;
+}
+
+
+iframe{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    height: 460px;
+}
+
+main a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: monospace;
+    color: white;
+}
+
+button{
+    background-color: #6F4E37;
+    border-radius: 12px;
+    width: 300px;
+    height: 50px;
+    border:0;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;    
+}
+
+footer a{
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-bottom: 5px;
+}
+
+footer p{
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 13px;
+}
+
+footer{
+    background-color:rgba(0, 0, 0, 0.733);
+    height: 80px;
+    text-align: center;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background-color:darkgreen;
+}

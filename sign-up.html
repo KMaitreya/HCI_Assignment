@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/sign-up.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="navigation">
+    <ul class="tabs">
+      <li class="tabs-tab"><a href="../index.html"> HOME </a></li>
+      <li class="tabs-tab"><a href="#"> TIMELINES <i class="fa fa-angle-right"></i></a>
+        <div class="sub-menu">
+          <ul class="tabs">
+             <li class="tabs-tab"> <a href="#">Dawn Age</a></li>
+             <li class="tabs-tab"> <a href="#">Age of Heroes</a></li>
+             <li class="tabs-tab"> <a href="#">The Long Night</a></li>
+             <li class="tabs-tab"> <a href="#">Andal Invasion</a></li>  
+             <li class="tabs-tab"> <a href="#">Doom of Valyria</a></li>
+             <li class="tabs-tab"> <a href="#">The Targaryen Conquest</a></li>
+             <li class="tabs-tab"> <a href="#">Robert's Rebellion</a></li>
+             <li class="tabs-tab"> <a href="#">Greyjoy Rebellion</a></li>
+             <li class="tabs-tab"> <a href="#">War of the Five Kings</a></li>
+             <li class="tabs-tab"> <a href="#">Conflict Beyond the Wall</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="tabs-tab"><a href="#"> WORLD <i class="fa fa-angle-right"></i></a>
+         <div class="sub-menu">
+          <ul class="tabs">
+             <li class="tabs-tab" > <a href="#">Westeros</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                     <ul class="tabs">
+                      <li class="tabs-tab"> <a href="#">The North</a></li>
+                      <li class="tabs-tab"> <a href="#">The Westerlands</a></li>
+                      <li class="tabs-tab"> <a href="#">The Reach</a></li>
+                      <li class="tabs-tab"> <a href="#">The Stormlands</a></li> 
+                      <li class="tabs-tab"> <a href="#">The Vale</a></li>
+                      <li class="tabs-tab"> <a href="#">The Riverlands</a></li>
+                      <li class="tabs-tab"> <a href="#">King's Landing</a></li>
+                      <li class="tabs-tab"> <a href="#">Iron Islands</a></li>
+                      <li class="tabs-tab"> <a href="#">DornBeyond the Wall</a></li>
+                    </ul>
+                  </div>
+             </li>
+             <li class="tabs-tab"> <a href="#">Beyond Westeros</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                     <ul class="tabs">
+                      <li class="tabs-tab"> <a href="#">Free Cities</a></li>
+                      <li class="tabs-tab"> <a href="#">Free city of Volantis</a></li>
+                      <li class="tabs-tab"> <a href="#">Free city of Braavos</a></li>
+                      <li class="tabs-tab"> <a href="#">Dothraki</a></li> 
+                      <li class="tabs-tab"> <a href="#">Quarth</a></li>
+                      <li class="tabs-tab"> <a href="#">Slaver's Bay</a></li>
+                      <li class="tabs-tab"> <a href="#">Valyria</a></li>
+                      <li class="tabs-tab"> <a href="#">Sothoryos</a></li>
+                      <li class="tabs-tab"> <a href="#">The Further East</a></li>
+                   </ul>
+                  </div>
+             </li>
+          </ul>
+         </div>
+      </li>
+      <li class="tabs-tab"><a href="#"> GREAT HOUSES <i class="fa fa-angle-right"></i></a>
+        <div class="sub-menu">
+          <ul class="tabs">
+             <li class="tabs-tab"> <a href="#">House Stark</a></li>
+             <li class="tabs-tab"> <a href="#">House Lannister</a></li>
+             <li class="tabs-tab"> <a href="#">House Targaryen</a></li>
+             <li class="tabs-tab"> <a href="#">House Tyrell</a></li>  
+             <li class="tabs-tab"> <a href="#">House Greyjoy</a></li>
+             <li class="tabs-tab"> <a href="#">House Tully</a></li>
+             <li class="tabs-tab"> <a href="#">House Arryn</a></li>
+             <li class="tabs-tab"> <a href="#">House Baratheon</a></li>
+             <li class="tabs-tab"> <a href="#">House Martell</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="tabs-tab"><a href="#"> CUSTOMS <i class="fa fa-angle-right"></i></a>
+        <div class="sub-menu">
+          <ul class="tabs">
+             <li class="tabs-tab"> <a href="#">Laws and Customs</a></li>
+             <li class="tabs-tab"> <a href="#">Science and Technology</a></li>
+             <li class="tabs-tab"> <a href="#">Gender and Sexuality</a></li>
+             <li class="tabs-tab"> <a href="#">Heraldry</a></li>  
+             <li class="tabs-tab"> <a href="#">Currency</a></li>
+             <li class="tabs-tab"> <a href="#">Animals and Plants</a></li>
+             <li class="tabs-tab"> <a href="#">Food and Drink</a></li>
+             <li class="tabs-tab"> <a href="#">Languages</a></li>
+             <li class="tabs-tab"> <a href="#">Magic</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="tabs-tab"><a href="#"> EXPLORE <i class="fa fa-angle-right"></i></a>
+        <div class="sub-menu">
+          <ul class="tabs">
+             <li class="tabs-tab"> <a href="#">Community</a></li>
+             <li class="tabs-tab"> <a href="#">Videos</a></li>
+             <li class="tabs-tab"> <a href="#">Images</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    
+   </div>
+
+ 
+<form name="Sign up" onsubmit="return valid() " id="form1">
+
+ <h1>Sign Up</h1>
+
+ <table>
+
+    <div>
+    <tr id="error" class="danger"></tr>
+    <tr>
+	   <td > User name </td>
+	   <td> <input type="text" name="user name" placeholder="User name" id="un" required="required"> </td>
+    </tr>
+
+    <tr>
+       <td> Email  </td>
+       <td> <input type="text" name="email" placeholder="Email" id="email1" required="required"> </td>
+    </tr>
+
+    <tr>
+      <td> Phone no  </td>
+      <td> <input type="tel" name="phoneno" placeholder="Phone number" id="phoneno" required="required"> </td>
+   </tr>
+
+    <tr>
+       <td> Password  </td>
+       <td> <input type="text" name="Password"  placeholder="Password" id="pass" required="required"> </td>
+    </tr>
+
+    <tr>
+       <td> Confirm Password  </td>
+       <td> <input type="text" name="Password" placeholder="Password" id="confirm" required="required"> </td>
+    </tr>
+   </div>
+
+   <div>
+        <button id="btn">Submit</button> 
+
+      </div>
+ </table>
+
+</form>
+
+<script type="text/javascript" src="../JS/sign-up.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up | Cafe NorthStar</title>
+    <link rel="stylesheet" href="book_style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Montserrat&display=swap" rel="stylesheet">
+     <link rel="manifest" href="/site.webmanifest">
+    </head>
+<body>
+
+    <div class="container">
+
+        <header>
+           <img src="images/coffee (1).svg" width="61px" height="61px" alt="LOGO">
+           <img src="images/half-star.svg" width="56px" height="56px"  alt="LOGO">     
+           <h3>Cafe NorthStar</h3>
+        </header>
+    
+        <nav>
+            <a class="nava" href="index.html">HOME</a>
+            <a class="nava" href="menupage.html">MENU</a>
+            <a class="nava" href="coupons.html">COUPONS</a>
+            <a class="nava" href="aboutus.html">ABOUT US</a>
+            <a class="nava" href="book.html">SIGN UP</a>
+        </nav>
+
+        <section>
+            <h1>Sign Up</h1>
+
+            <form name="Sign up" onsubmit="return valid() " id="form1">
+
+                <div class="form-group">
+                  <label for="exampleInputName1"><h3>Username</h3></label>
+                  <input class="form-control" type="text" name="username" placeholder="Username" id="un" required="required" style="width: 300px;">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><h3>Email address</h3></label>
+                    <input class="form-control" type="text" name="email" placeholder="Email" id="email1" required="required" style="width: 300px;">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPhone1"><h3>Phone number</h3></label>
+                    <input class="form-control" type="tel" name="phoneno" placeholder="Phone number" id="phoneno" required="required" style="width: 300px;">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword1"><h3>Password</h3></label>
+                    <input class="form-control" type="text" name="Password"  placeholder="Password" id="pass" required="required" style="width: 300px;">
+                  </div>
+
+                <div class="form-group">
+                  <label for="exampleInputPassword1"><h3>Confirm Password</h3></label>
+                  <input class="form-control" type="text" name="Password" placeholder="Password" id="confirm" required="required" style="width: 300px;">
+                </div>
+
+                <button type="submit" class="button"><a href="#">SUBMIT</a></button>
+              </form>
+        
+        </section>
+
+        <footer>
+       
+            <p>&copy; Copyright 2020 Kanitkar Maitreya</p>
+            
+            <a href="https://www.facebook.com/" add target="_blank">
+            <img src="images/facebook.svg" width="24px" height="24px" alt="Facebook"></a>
+    
+            <a href="https://www.instagram.com/?hl=en" add target="_blank">
+            <img src="images/instagram.svg" width="24px" height="24px" alt="Instagram"></a>
+    
+            <a href="https://twitter.com/?lang=en" add target="_blank">
+            <img src="images/twitter.svg" width="24px" height="24px" alt="Twitter"></a>
+            
+        </footer>
+    </div>
+
+    <script src="bookjs.js"></script>
+    
+</body>
+</html>
